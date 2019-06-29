@@ -1,0 +1,43 @@
+
+
+
+	//	--------------------------------------------------------------------------------------------------------------
+	1. ModelConverter, Model::Parse
+	
+	
+		Debugging on box_01.obj
+	
+		last triangle is rendered black on the normal buffer;
+		
+		if You change triagnles in OBJ file - always the last triangle will be black
+		
+		if You add extra vertex - everythins is ok
+		
+		
+		Why Position and UV are good but normal is NOT?
+	
+		Why if You remove last face everything is ok? - new last is displayed ok
+		
+		
+		Looks like index 24 DOES matter - if you replace face 24 with another- it wont help
+		
+		If You change in face vertex 24/24/24 to other f.e. 20/20/20 - it will fix the problem
+		
+		
+	//	--------------------------------------------------------------------------------------------------------------
+	2. TextureConveretr/Texure2D::Parse
+	
+	
+	Zapisywanie bmp w GIMPie z  "color space infomration" pierdoli teskture
+	
+	Przy zapsywaniu trzeba odwrocic teksture... do poprawy kiedys - odczytywac BMP od tylu
+	
+	
+	
+	
+	
+	//	--------------------------------------------------------------------------------------------------------------
+	
+	Wywolywana funkcja IsUpdateNeeded() wpierdala 4 fpsy...
+	ParabellumEngine::Components::Component3D::UpdateWorldMatrix()
+	

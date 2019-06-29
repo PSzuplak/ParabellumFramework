@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ParabellumGUI">
+      <UniqueIdentifier>{eb116e34-b05a-48d1-a8ff-3574bbea4db0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParabellumGUI">
+      <UniqueIdentifier>{cc055e0b-14b9-42f1-ad69-4d3ada88dfe2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PUIEventMouse.h">
+      <Filter>Header Files\ParabellumGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PUIEvent.h">
+      <Filter>Header Files\ParabellumGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PGUIDrawableObject.h">
+      <Filter>Header Files\ParabellumGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PGUISimple.h">
+      <Filter>Header Files\ParabellumGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PGUIExtDrawableObject.h">
+      <Filter>Header Files\ParabellumGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PGUIGroupBox.h">
+      <Filter>Header Files\ParabellumGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PGUIExpandBar.h">
+      <Filter>Header Files\ParabellumGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PGUIButton.h">
+      <Filter>Header Files\ParabellumGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PGUIExpander.h">
+      <Filter>Header Files\ParabellumGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PGUICursor.h">
+      <Filter>Header Files\ParabellumGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PGUIManager.h">
+      <Filter>Header Files\ParabellumGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PGUIFont.h">
+      <Filter>Header Files\ParabellumGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PGUIText.h">
+      <Filter>Header Files\ParabellumGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PGUIObject.h">
+      <Filter>Header Files\ParabellumGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PUITypes.h">
+      <Filter>Header Files\ParabellumGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PGUIScrollBar.h">
+      <Filter>Header Files\ParabellumGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PGUIPageTab.h">
+      <Filter>Header Files\ParabellumGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PGUIComboBox.h">
+      <Filter>Header Files\ParabellumGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PGUIComboPage.h">
+      <Filter>Header Files\ParabellumGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PGUIHintable.h">
+      <Filter>Header Files\ParabellumGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PGUIProgressBar.h">
+      <Filter>Header Files\ParabellumGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PGUISlider.h">
+      <Filter>Header Files\ParabellumGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PGUIColorPicker.h">
+      <Filter>Header Files\ParabellumGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PGUIButtonBox.h">
+      <Filter>Header Files\ParabellumGUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PGUIDrawableObject.cpp">
+      <Filter>Source Files\ParabellumGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PGUISimple.cpp">
+      <Filter>Source Files\ParabellumGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PGUIExtDrawableObject.cpp">
+      <Filter>Source Files\ParabellumGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PGUIGroupBox.cpp">
+      <Filter>Source Files\ParabellumGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PGUIExpandBar.cpp">
+      <Filter>Source Files\ParabellumGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PGUIButton.cpp">
+      <Filter>Source Files\ParabellumGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PGUIExpander.cpp">
+      <Filter>Source Files\ParabellumGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PGUICursor.cpp">
+      <Filter>Source Files\ParabellumGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PGUIManager.cpp">
+      <Filter>Source Files\ParabellumGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PGUIText.cpp">
+      <Filter>Source Files\ParabellumGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PGUIFont.cpp">
+      <Filter>Source Files\ParabellumGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PGUIObject.cpp">
+      <Filter>Source Files\ParabellumGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PGUIScrollBar.cpp">
+      <Filter>Source Files\ParabellumGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PGUIComboBox.cpp">
+      <Filter>Source Files\ParabellumGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PGUIComboPage.cpp">
+      <Filter>Source Files\ParabellumGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PGUIPageTab.cpp">
+      <Filter>Source Files\ParabellumGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PGUIHintable.cpp">
+      <Filter>Source Files\ParabellumGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PGUIProgressBar.cpp">
+      <Filter>Source Files\ParabellumGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PGUISlider.cpp">
+      <Filter>Source Files\ParabellumGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PGUIColorPicker.cpp">
+      <Filter>Source Files\ParabellumGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PGUIButtonBox.cpp">
+      <Filter>Source Files\ParabellumGUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

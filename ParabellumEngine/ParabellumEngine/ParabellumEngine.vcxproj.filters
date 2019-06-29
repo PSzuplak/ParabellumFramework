@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\System">
+      <UniqueIdentifier>{755d25e8-a697-4d8d-bc85-921cf84eb254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Graphics">
+      <UniqueIdentifier>{82717e09-6bfa-46a8-b993-aeec026250a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Input">
+      <UniqueIdentifier>{82c481b5-89c3-4c79-9c56-fab4317546ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Audio">
+      <UniqueIdentifier>{70061caa-008c-4a41-85d8-f247d4537540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System">
+      <UniqueIdentifier>{07108145-e6e4-4a83-9425-54b536f524c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Graphics">
+      <UniqueIdentifier>{f172ce50-f6eb-4818-bde1-f9794bbb891a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Input">
+      <UniqueIdentifier>{7a239551-59ef-4658-85cf-7651b12c11d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Audio">
+      <UniqueIdentifier>{6426d5b7-2572-452e-8acf-1cb9306c2a36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components">
+      <UniqueIdentifier>{32e6367a-7338-44f8-9bd7-50782dd7f6c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components">
+      <UniqueIdentifier>{f7f6b7b2-fbab-42a9-a70e-2a87c0a4aaad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\Camera">
+      <UniqueIdentifier>{3e558263-a00b-4e05-a2fc-5619225efbd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\Camera">
+      <UniqueIdentifier>{5abff633-7fe5-46e2-92db-1dec9ff277da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{f682f7d1-ff17-402d-ab29-ab3c0d8c295e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Graphics">
+      <UniqueIdentifier>{b4c4e907-4fdb-4a6a-801a-a10c895a6c03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{3716f24b-75d4-4b91-a115-88b2c7dff09f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Graphics">
+      <UniqueIdentifier>{ac6a9a84-d119-4b57-a355-946749b3896c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\Model">
+      <UniqueIdentifier>{887890e7-77c7-4739-8921-f21c924fa15a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\Model">
+      <UniqueIdentifier>{ff13f9d0-31d9-4dd3-87b1-ce44f6f5699d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Scene">
+      <UniqueIdentifier>{d0f5b2e8-8a52-4ce7-a6af-b039cca6bf90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Scene">
+      <UniqueIdentifier>{37ca11b1-7215-4df5-bbcc-2a791422776f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\Terrain">
+      <UniqueIdentifier>{54d86c93-dee1-4e31-880d-449c5586ca37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Utiles">
+      <UniqueIdentifier>{e443bfb9-f117-49d6-94a8-8c8057332f0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\Grass">
+      <UniqueIdentifier>{ffaf77c3-2557-4058-a036-71480dda7960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\Terrain">
+      <UniqueIdentifier>{6c88f586-edf1-4bb4-b9cf-833de112a393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\Light">
+      <UniqueIdentifier>{14f054ed-09f5-478e-a794-1db48b3d8b9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\Light">
+      <UniqueIdentifier>{c2338c1f-b57a-411d-b95d-46c76feeb1eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\Skydome">
+      <UniqueIdentifier>{881b6ef7-3b02-4467-b840-c6d17c829d8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\Skydome">
+      <UniqueIdentifier>{f9f47968-6eac-45c2-9429-9061e453ce8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\Particles">
+      <UniqueIdentifier>{7c759b0f-df1c-4c36-801a-ca11f263bb03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\Particles">
+      <UniqueIdentifier>{d0c4205e-deb7-4eed-bd25-501736cae8d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Types">
+      <UniqueIdentifier>{87f31bac-9209-4158-a9de-dc13bf34970a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Editor">
+      <UniqueIdentifier>{cdefc48b-3072-4a7a-8ae4-33051ba3bcf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Editor">
+      <UniqueIdentifier>{3db983b4-3c90-421c-8157-6c9812a8c38c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\Sky">
+      <UniqueIdentifier>{19eb9c83-230e-4a98-b486-ae1c9fb924f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\Sky">
+      <UniqueIdentifier>{a8372795-f6d2-4533-992e-d92530c241f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Utiles">
+      <UniqueIdentifier>{95c9f78e-d9d4-4311-9808-2613b76ba466}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\ExtendedObject">
+      <UniqueIdentifier>{1b2d2551-519a-4072-ae5a-c7208c97c3f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Optimization">
+      <UniqueIdentifier>{d4511a50-4ce4-44aa-9cf9-8eb18103493c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\Physics">
+      <UniqueIdentifier>{0b1cf589-c4e7-467d-bd32-37a2e3b6ed35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physics">
+      <UniqueIdentifier>{9610d1b1-5e83-4f0f-98da-3dbfc0b35d13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DLLIE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsManager.h">
+      <Filter>Header Files\System\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files\System\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemInstance.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemManager.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Components\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Component3D.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="DeferredRenderer.h">
+      <Filter>Header Files\Core\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderQuad.h">
+      <Filter>Header Files\Core\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="EModel.h">
+      <Filter>Header Files\Components\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="EModelPart.h">
+      <Filter>Header Files\Components\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Octree.h">
+      <Filter>Header Files\Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="EMaterial.h">
+      <Filter>Header Files\Components\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainCell.h">
+      <Filter>Header Files\Components\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainVertexFormat.h">
+      <Filter>Header Files\Components\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files\Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Grass.h">
+      <Filter>Header Files\Components\Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="GrassVertexFormat.h">
+      <Filter>Header Files\Components\Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="ExDRLight.h">
+      <Filter>Header Files\Core\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLight.h">
+      <Filter>Header Files\Components\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="MapSector.h">
+      <Filter>Header Files\Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ExDRSSAO.h">
+      <Filter>Header Files\Core\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Skydome.h">
+      <Filter>Header Files\Components\Skydome</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseLight.h">
+      <Filter>Header Files\Components\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Header Files\Components\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="ExDRParallaxMapping.h">
+      <Filter>Header Files\Core\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Particles.h">
+      <Filter>Header Files\Components\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleVertexFormat.h">
+      <Filter>Header Files\Components\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderArea.h">
+      <Filter>Header Files\Core\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimitivesFactory.h">
+      <Filter>Header Files\Core\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTree.h">
+      <Filter>Header Files\Core\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="ExDRVolumetricLight.h">
+      <Filter>Header Files\Core\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="ExDRHDR.h">
+      <Filter>Header Files\Core\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>Header Files\Components\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="ExDRGlobalIllumination.h">
+      <Filter>Header Files\Core\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneEditorUI.h">
+      <Filter>Header Files\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneEditor.h">
+      <Filter>Header Files\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="PaintTool.h">
+      <Filter>Header Files\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="PaintTool_Brush.h">
+      <Filter>Header Files\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformTool.h">
+      <Filter>Header Files\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionTool.h">
+      <Filter>Header Files\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionTool_Box.h">
+      <Filter>Header Files\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Pivot.h">
+      <Filter>Header Files\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyLike.h">
+      <Filter>Header Files\Components\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="Cloud.h">
+      <Filter>Header Files\Components\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudVertexFormat.h">
+      <Filter>Header Files\Components\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneCart.h">
+      <Filter>Header Files\Core\Utiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Basket.h">
+      <Filter>Header Files\Core\Utiles</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtendedObject.h">
+      <Filter>Header Files\Components\ExtendedObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentSettings.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="FrustumOutput.h">
+      <Filter>Header Files\Core\Utiles</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaceHolder.h">
+      <Filter>Header Files\Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsComponent.h">
+      <Filter>Header Files\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsBase.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsMassPoint.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorTypes.h">
+      <Filter>Header Files\Editor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParabellumEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsManager.cpp">
+      <Filter>Source Files\System\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files\System\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemManager.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Components\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Component3D.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredRenderer.cpp">
+      <Filter>Source Files\Core\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderQuad.cpp">
+      <Filter>Source Files\Core\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="EModel.cpp">
+      <Filter>Source Files\Components\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="EModelPart.cpp">
+      <Filter>Source Files\Components\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Octree.cpp">
+      <Filter>Source Files\Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainCell.cpp">
+      <Filter>Source Files\Components\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="ExDRLight.cpp">
+      <Filter>Source Files\Core\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLight.cpp">
+      <Filter>Source Files\Components\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="MapSector.cpp">
+      <Filter>Source Files\Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ExDRSSAO.cpp">
+      <Filter>Source Files\Core\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Skydome.cpp">
+      <Filter>Source Files\Components\Skydome</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseLight.cpp">
+      <Filter>Source Files\Components\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Source Files\Components\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="ExDRParallaxMapping.cpp">
+      <Filter>Source Files\Core\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Particles.cpp">
+      <Filter>Source Files\Components\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderArea.cpp">
+      <Filter>Source Files\Core\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimitivesFactory.cpp">
+      <Filter>Source Files\Core\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTree.cpp">
+      <Filter>Source Files\Core\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="EMaterial.cpp">
+      <Filter>Source Files\Components\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ExDRVolumetricLight.cpp">
+      <Filter>Source Files\Core\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="ExDRHDR.cpp">
+      <Filter>Source Files\Core\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="ExDRGlobalIllumination.cpp">
+      <Filter>Source Files\Core\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneEditorUI.cpp">
+      <Filter>Source Files\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformTool.cpp">
+      <Filter>Source Files\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionTool.cpp">
+      <Filter>Source Files\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneEditor.cpp">
+      <Filter>Source Files\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionTool_Box.cpp">
+      <Filter>Source Files\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Pivot.cpp">
+      <Filter>Source Files\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyLike.cpp">
+      <Filter>Source Files\Components\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="Cloud.cpp">
+      <Filter>Source Files\Components\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneCart.cpp">
+      <Filter>Source Files\Core\Utiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Basket.cpp">
+      <Filter>Source Files\Core\Utiles</Filter>
+    </ClCompile>
+    <ClCompile Include="FrustumOutput.cpp">
+      <Filter>Source Files\Core\Utiles</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaceHolder.cpp">
+      <Filter>Source Files\Core\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

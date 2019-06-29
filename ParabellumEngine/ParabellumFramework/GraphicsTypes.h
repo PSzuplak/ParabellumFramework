@@ -1,0 +1,253 @@
+#ifndef _GRAPHICSTYPES_H_
+#define _GRAPHICSTYPES_H_
+
+//
+//	Predefs
+//
+#include "DLLIE.h"
+
+
+#include "TypesC.h"
+
+
+
+// Device info
+#define PF_GI_RENDERTARGETSCOUNT		8
+
+
+// Render option for GraphicsDevice->Render(Settings)
+#define PF_GI_RENDERING_UPDATEVARIABLES				EBYTENO_2
+#define PF_GI_RENDERING_UPDATERESOURCES				EBYTENO_3
+
+
+
+// Rasterizer States
+#define PF_GI_RS_CULL_NONE					EBYTENO_1
+#define PF_GI_RS_CULL_CLOCKWISE				EBYTENO_2
+#define PF_GI_RS_CULL_COUNTERCLOCKWISE		EBYTENO_3
+#define PF_GI_RS_MODE_WIREFRAME				EBYTENO_4
+#define PF_GI_RS_MODE_SOLID					EBYTENO_5
+#define PF_GI_RS_MODE_SCISSORS				EBYTENO_6
+#define PF_GI_RS_DEPTHTEST					EBYTENO_7
+
+#define PF_GI_BLEND_ALPHA_NONE				EBYTENO_8
+#define PF_GI_BLEND_ALPHA_INV				EBYTENO_9
+#define PF_GI_BLEND_COLOR_ADD				EBYTENO_10
+#define PF_GI_BLEND_COLOR_SUB				EBYTENO_11
+
+
+
+
+// if not set then GREATER will be choosed
+#define PF_GI_STENCIL_LESS				EBYTENO_16
+#define PF_GI_STENCIL_GREATER			EBYTENO_17
+
+// Samplers Type
+#define PF_GI_SAMPLER_POINT				EBYTENO_1
+#define PF_GI_SAMPLER_LINEAR			EBYTENO_2
+#define PF_GI_SAMPLER_ANISOTROPIC		EBYTENO_3
+
+
+namespace ParabellumFramework
+{
+	namespace Graphics
+	{
+
+		//
+		// Contains ID of types used f.e. in ShaderVariable. ShaderParser should check type name in file
+		// and return value which match to GraphicsTypes
+		//
+		enum GraphicsType
+		{
+			FLOAT1 = 1,
+			FLOAT2 = 2,
+			FLOAT3 = 3,
+			FLOAT4 = 4,
+			MATRIX = 5,
+			FLOAT4X4 = 5,
+			TEXTURE2D = 6
+		};
+
+
+		enum GraphicSemantic
+		{
+			UNDEFINIED = 0,
+			POSITION = 1,
+			COLOR,
+			TEXCOORD,
+			NORMAL,
+			TANGENT,
+			BITANGENT,
+			BINORMAL
+		};
+
+		enum GraphicsFormat
+		{
+			FORMAT_UNDEFINIED = 0,
+			FORMAT_ZERO = 1,
+
+			FORMAT_R8_INT,
+			FORMAT_R8G8_INT,
+			FORMAT_R8G8B8_INT,
+			FORMAT_R8G8B8A8_INT,
+
+			FORMAT_R16_INT,
+			FORMAT_R16G16_INT,
+			FORMAT_R16G16B16_INT,
+			FORMAT_R16G16B16A16_INT,
+
+			FORMAT_R32_INT,
+			FORMAT_R32G32_INT,
+			FORMAT_R32G32B32_INT,
+			FORMAT_R32G32B32A32_INT,
+
+			FORMAT_R8_FLOAT,
+			FORMAT_R8G8_FLOAT,
+			FORMAT_R8G8B8_FLOAT,
+			FORMAT_R8G8B8A8_FLOAT,
+
+			FORMAT_R16_FLOAT,
+			FORMAT_R16G16_FLOAT,
+			FORMAT_R16G16B16_FLOAT,
+			FORMAT_R16G16B16A16_FLOAT,
+
+			FORMAT_R32_FLOAT,
+			FORMAT_R32G32_FLOAT,
+			FORMAT_R32G32B32_FLOAT,
+			FORMAT_R32G32B32A32_FLOAT,
+
+			FORMAT_R64_FLOAT,
+			FORMAT_R64G64_FLOAT,
+			FORMAT_R64G64B64_FLOAT,
+			FORMAT_R64G64B64A64_FLOAT,
+
+			FORMAT_R128_FLOAT,
+			FORMAT_R128G128_FLOAT,
+			FORMAT_R128G128B128_FLOAT,
+			FORMAT_R128G128B128A128_FLOAT
+		};
+
+
+		enum class  GraphicsFormatSize
+		{
+			FORMAT_UNDEFINIED = 0,
+			FORMAT_ZERO = 0,
+
+			FORMAT_R8_INT = 1,
+			FORMAT_R8G8_INT = 2,
+			FORMAT_R8G8B8_INT = 3,
+			FORMAT_R8G8B8A8_INT = 4,
+
+			FORMAT_R16_INT = 2,
+			FORMAT_R16G16_INT = 4,
+			FORMAT_R16G16B16_INT = 6,
+			FORMAT_R16G16B16A16_INT = 8,
+
+			FORMAT_R32_INT = 4,
+			FORMAT_R32G32_INT = 8,
+			FORMAT_R32G32B32_INT = 12,
+			FORMAT_R32G32B32A32_INT = 16,
+
+			FORMAT_R8_FLOAT = 1,
+			FORMAT_R8G8_FLOAT = 2,
+			FORMAT_R8G8B8_FLOAT = 3,
+			FORMAT_R8G8B8A8_FLOAT = 4,
+
+			FORMAT_R16_FLOAT = 2,
+			FORMAT_R16G16_FLOAT = 4,
+			FORMAT_R16G16B16_FLOAT = 6,
+			FORMAT_R16G16B16A16_FLOAT = 8,
+
+			FORMAT_R32_FLOAT = 4,
+			FORMAT_R32G32_FLOAT = 8,
+			FORMAT_R32G32B32_FLOAT = 12,
+			FORMAT_R32G32B32A32_FLOAT = 16,
+
+			FORMAT_R64_FLOAT = 8,
+			FORMAT_R64G64_FLOAT = 16,
+			FORMAT_R64G64B64_FLOAT = 24,
+			FORMAT_R64G64B64A64_FLOAT = 32,
+
+			FORMAT_R128_FLOAT = 16,
+			FORMAT_R128G128_FLOAT = 32,
+			FORMAT_R128G128B128_FLOAT = 48,
+			FORMAT_R128G128B128A128_FLOAT = 64
+		};
+
+
+		enum class SamplerFilter
+		{
+			MIN_MAG_MIP_POINT = 1,
+			MIN_MAG_MIP_LINEAR = 2,
+			MIN_MAG_MIP_ANISOTROPIC = 3
+		};
+
+		enum class SamplerAddress
+		{
+			CLAMP = 1,
+			WRAP
+		};
+
+		enum class SamplerComparsion
+		{
+			ALWAYS = 1
+		};
+
+
+		enum class SamplerType
+		{
+			POINT = 1,
+			LINEAR = 2,
+			ANISOTROPIC = 3,
+		};
+
+		// return size in Bytes of the GraphicFormat
+		//EUINT32 GetFormatSize(GraphicsFormat format);
+
+
+		enum class ShaderFlagSet
+		{
+			ALL = EBYTENO_0,
+			NO_SAMPLERS = EBYTENO_1,
+		};
+
+
+
+
+		enum class ChannelNo
+		{
+			R = 1,
+			G = 2,
+			B = 3,
+			A = 4,
+		};
+
+
+
+
+		enum RenderUpdateSetup
+		{
+			PF_GI_UPDATEVARIABLES = 1,
+			PF_GI_UPDATERESOURCES = 2,
+			PF_GI_UPDATEALL = 3,
+
+			// render using Shader::m_parametrsBuffer
+			PF_GI_USEPARAMETRSBUFFER = 4
+		};
+
+
+
+
+
+
+	}
+}
+
+
+
+
+
+
+
+
+#endif

@@ -1,0 +1,31 @@
+# 
+# Wavefront material file
+# Created with Kaydara FBX
+# 
+
+newmtl leafs
+map_Kd screw_palm_leafs.tga
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+illum 2
+Ns 2.000000
+Tr 1.000000
+
+newmtl bark
+map_Kd screw_palm_bark.tga
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+illum 2
+Ns 2.000000
+Tr 1.000000
+
+newmtl lambert4
+map_Kd screw_palm_bark2.tga
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+illum 2
+Ns 2.000000
+Tr 1.000000

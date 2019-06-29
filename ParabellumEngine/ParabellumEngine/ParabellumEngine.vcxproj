@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E2AE2E9F-20A6-4B45-8430-CC2DF1A924CB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ParabellumEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Windows Kits\10\Include\10.0.10240.0\um;C:\Program Files %28x86%29\Windows Kits\10\Include\10.0.10240.0\shared;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Windows Kits\10\Lib\10.0.10240.0\um\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Windows Kits\10\Include\10.0.10240.0\um;C:\Program Files %28x86%29\Windows Kits\10\Include\10.0.10240.0\shared;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Windows Kits\10\Lib\10.0.10240.0\um\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;PARABELLUMENGINE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;PARABELLUMENGINE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <StructMemberAlignment>16Bytes</StructMemberAlignment>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;PARABELLUMENGINE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;PARABELLUMENGINE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <StructMemberAlignment>16Bytes</StructMemberAlignment>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseLight.h" />
+    <ClInclude Include="Basket.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Cloud.h" />
+    <ClInclude Include="CloudVertexFormat.h" />
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="Component3D.h" />
+    <ClInclude Include="ComponentSettings.h" />
+    <ClInclude Include="DeferredRenderer.h" />
+    <ClInclude Include="DirectionalLight.h" />
+    <ClInclude Include="EditorTypes.h" />
+    <ClInclude Include="EMaterial.h" />
+    <ClInclude Include="EModel.h" />
+    <ClInclude Include="EModelPart.h" />
+    <ClInclude Include="ExDRHDR.h" />
+    <ClInclude Include="ExDRLight.h" />
+    <ClInclude Include="ExDRParallaxMapping.h" />
+    <ClInclude Include="ExDRSSAO.h" />
+    <ClInclude Include="ExDRVolumetricLight.h" />
+    <ClInclude Include="ExDRGlobalIllumination.h" />
+    <ClInclude Include="ExtendedObject.h" />
+    <ClInclude Include="FrustumOutput.h" />
+    <ClInclude Include="GraphicsManager.h" />
+    <ClInclude Include="Grass.h" />
+    <ClInclude Include="GrassVertexFormat.h" />
+    <ClInclude Include="InputManager.h" />
+    <ClInclude Include="PhysicsBase.h" />
+    <ClInclude Include="PhysicsComponent.h" />
+    <ClInclude Include="PhysicsMassPoint.h" />
+    <ClInclude Include="Pivot.h" />
+    <ClInclude Include="PlaceHolder.h" />
+    <ClInclude Include="SelectionTool.h" />
+    <ClInclude Include="SelectionTool_Box.h" />
+    <ClInclude Include="SkyLike.h" />
+    <ClInclude Include="TransformTool.h" />
+    <ClInclude Include="MapSector.h" />
+    <ClInclude Include="Octree.h" />
+    <ClInclude Include="PaintTool.h" />
+    <ClInclude Include="PaintTool_Brush.h" />
+    <ClInclude Include="Particles.h" />
+    <ClInclude Include="ParticleVertexFormat.h" />
+    <ClInclude Include="PointLight.h" />
+    <ClInclude Include="PrimitivesFactory.h" />
+    <ClInclude Include="RenderArea.h" />
+    <ClInclude Include="RenderQuad.h" />
+    <ClInclude Include="RenderTree.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SceneEditor.h" />
+    <ClInclude Include="SceneEditorUI.h" />
+    <ClInclude Include="SceneCart.h" />
+    <ClInclude Include="Skydome.h" />
+    <ClInclude Include="SystemInstance.h" />
+    <ClInclude Include="SystemManager.h" />
+    <ClInclude Include="DLLIE.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Terrain.h" />
+    <ClInclude Include="TerrainCell.h" />
+    <ClInclude Include="TerrainVertexFormat.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseLight.cpp" />
+    <ClCompile Include="Basket.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Cloud.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="Component3D.cpp" />
+    <ClCompile Include="DeferredRenderer.cpp" />
+    <ClCompile Include="DirectionalLight.cpp" />
+    <ClCompile Include="EMaterial.cpp" />
+    <ClCompile Include="EModel.cpp" />
+    <ClCompile Include="EModelPart.cpp" />
+    <ClCompile Include="ExDRGlobalIllumination.cpp" />
+    <ClCompile Include="ExDRHDR.cpp" />
+    <ClCompile Include="ExDRLight.cpp" />
+    <ClCompile Include="ExDRParallaxMapping.cpp" />
+    <ClCompile Include="ExDRSSAO.cpp" />
+    <ClCompile Include="ExDRVolumetricLight.cpp" />
+    <ClCompile Include="FrustumOutput.cpp" />
+    <ClCompile Include="GraphicsManager.cpp" />
+    <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="Pivot.cpp" />
+    <ClCompile Include="PlaceHolder.cpp" />
+    <ClCompile Include="SceneCart.cpp" />
+    <ClCompile Include="SceneEditor.cpp" />
+    <ClCompile Include="SelectionTool.cpp" />
+    <ClCompile Include="SelectionTool_Box.cpp" />
+    <ClCompile Include="SkyLike.cpp" />
+    <ClCompile Include="TransformTool.cpp" />
+    <ClCompile Include="MapSector.cpp" />
+    <ClCompile Include="Octree.cpp" />
+    <ClCompile Include="Particles.cpp" />
+    <ClCompile Include="PrimitivesFactory.cpp" />
+    <ClCompile Include="RenderArea.cpp" />
+    <ClCompile Include="RenderQuad.cpp" />
+    <ClCompile Include="RenderTree.cpp" />
+    <ClCompile Include="SceneEditorUI.cpp" />
+    <ClCompile Include="Skydome.cpp" />
+    <ClCompile Include="SystemManager.cpp" />
+    <ClCompile Include="dllmain.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ParabellumEngine.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Terrain.cpp" />
+    <ClCompile Include="TerrainCell.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ParabellumFramework\ParabellumFramework.vcxproj">
+      <Project>{999bb872-1381-42c2-b103-9975332cd5e4}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\ParabellumGUI\ParabellumGUI.vcxproj">
+      <Project>{122ed768-7e3a-4498-90a9-bea1c13aee8c}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

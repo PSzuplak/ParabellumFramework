@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{999BB872-1381-42C2-B103-9975332CD5E4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ParabellumFramework</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Windows Kits\10\Include\10.0.10240.0\shared;C:\Program Files %28x86%29\Windows Kits\10\Include\10.0.10240.0\um;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Windows Kits\10\Redist\D3D\x86;C:\Program Files %28x86%29\Windows Kits\10\Lib\10.0.10240.0\um\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Windows Kits\10\Include\10.0.10240.0\um;C:\Program Files %28x86%29\Windows Kits\10\Include\10.0.10240.0\shared;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Windows Kits\10\Lib\10.0.10240.0\um\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Windows Kits\10\Include\10.0.10240.0\um;C:\Program Files %28x86%29\Windows Kits\10\Include\10.0.10240.0\shared;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Windows Kits\10\Lib\10.0.10240.0\um\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;PARABELLUMFRAMEWORK_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;PARABELLUMFRAMEWORK_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <StructMemberAlignment>16Bytes</StructMemberAlignment>
+      <FloatingPointModel>Precise</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;PARABELLUMFRAMEWORK_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;PARABELLUMFRAMEWORK_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <StructMemberAlignment>16Bytes</StructMemberAlignment>
+      <FloatingPointModel>Precise</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ParabellumFramework\DebugManager.h" />
+    <ClInclude Include="..\ParabellumFramework\DeviceDirectX11.h" />
+    <ClInclude Include="..\ParabellumFramework\DeviceDirectX12.h" />
+    <ClInclude Include="..\ParabellumFramework\DirectX12Headers.h" />
+    <ClInclude Include="..\ParabellumFramework\GraphicsDevice.h" />
+    <ClInclude Include="..\ParabellumFramework\GraphicsDeviceHeaders.h" />
+    <ClInclude Include="..\ParabellumFramework\GraphicsTypes.h" />
+    <ClInclude Include="..\ParabellumFramework\IndexBuffer.h" />
+    <ClInclude Include="..\ParabellumFramework\MathHelper.h" />
+    <ClInclude Include="..\ParabellumFramework\Matrix4x4.h" />
+    <ClInclude Include="..\ParabellumFramework\MemoryManager.h" />
+    <ClInclude Include="..\ParabellumFramework\Plane.h" />
+    <ClInclude Include="..\ParabellumFramework\RenderTarget.h" />
+    <ClInclude Include="..\ParabellumFramework\Resource.h" />
+    <ClInclude Include="..\ParabellumFramework\ResourceManager.h" />
+    <ClInclude Include="..\ParabellumFramework\Shader.h" />
+    <ClInclude Include="..\ParabellumFramework\ShaderConverter.h" />
+    <ClInclude Include="..\ParabellumFramework\ShaderLayout.h" />
+    <ClInclude Include="..\ParabellumFramework\ShaderParametr.h" />
+    <ClInclude Include="..\ParabellumFramework\SystemCodes.h" />
+    <ClInclude Include="..\ParabellumFramework\TypesC.h" />
+    <ClInclude Include="..\ParabellumFramework\Vector2D.h" />
+    <ClInclude Include="..\ParabellumFramework\Vector3D.h" />
+    <ClInclude Include="..\ParabellumFramework\Vector4D.h" />
+    <ClInclude Include="..\ParabellumFramework\VertexBuffer.h" />
+    <ClInclude Include="anonymousVariable.h" />
+    <ClInclude Include="BoundingVolumes.h" />
+    <ClInclude Include="BoundingFrustum.h" />
+    <ClInclude Include="Console.h" />
+    <ClInclude Include="CompilationConf.h" />
+    <ClInclude Include="Convenctions.h" />
+    <ClInclude Include="Conversions.h" />
+    <ClInclude Include="DebugHelper.h" />
+    <ClInclude Include="Deck.h" />
+    <ClInclude Include="dfstream.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="FunctionHelper.h" />
+    <ClInclude Include="ParallerDevice.h" />
+    <ClInclude Include="GraphicsCommands.h" />
+    <ClInclude Include="GraphicsQueue.h" />
+    <ClInclude Include="GraphicsVol.h" />
+    <ClInclude Include="Locker.h" />
+    <ClInclude Include="MathHash.h" />
+    <ClInclude Include="MemorySettings.h" />
+    <ClInclude Include="Exception.h" />
+    <ClInclude Include="PFString.h" />
+    <ClInclude Include="Serializer.h" />
+    <ClInclude Include="SubsystemsPrefixes.h" />
+    <ClInclude Include="SystemSettings.h" />
+    <ClInclude Include="TaskManager.h" />
+    <ClInclude Include="MathHelperExtended.h" />
+    <ClInclude Include="FlagHelper.h" />
+    <ClInclude Include="GraphicsDeviceTight.h" />
+    <ClInclude Include="Handler.h" />
+    <ClInclude Include="IOTypes.h" />
+    <ClInclude Include="MathHelperPrimitives.h" />
+    <ClInclude Include="VectorFit.h" />
+    <ClInclude Include="Volume.h" />
+    <ClInclude Include="Narray.h" />
+    <ClInclude Include="ParabellumExtensions.h" />
+    <ClInclude Include="Parser.h" />
+    <ClInclude Include="Ray.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="Triangle.h" />
+    <ClInclude Include="Task.h" />
+    <ClInclude Include="UnitHelper.h" />
+    <ClInclude Include="CommonMaterialType.h" />
+    <ClInclude Include="CommonVertexType.h" />
+    <ClInclude Include="Deductor.h" />
+    <ClInclude Include="DLLIE.h" />
+    <ClInclude Include="DXInputDevice.h" />
+    <ClInclude Include="InputDevice.h" />
+    <ClInclude Include="IntersectCodes.h" />
+    <ClInclude Include="IOCodes.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="ModelConverter.h" />
+    <ClInclude Include="ModelFormat.h" />
+    <ClInclude Include="ModelPart.h" />
+    <ClInclude Include="ParabellumImage.h" />
+    <ClInclude Include="PMModelFormat.h" />
+    <ClInclude Include="Profiler.h" />
+    <ClInclude Include="Settings.h" />
+    <ClInclude Include="ShaderSamplerState.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Texture2D.h" />
+    <ClInclude Include="TextureConverter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ParabellumFramework\DeviceDirectX11.cpp" />
+    <ClCompile Include="..\ParabellumFramework\DeviceDirectX12.cpp" />
+    <ClCompile Include="..\ParabellumFramework\GraphicsDevice.cpp" />
+    <ClCompile Include="..\ParabellumFramework\IndexBuffer.cpp" />
+    <ClCompile Include="..\ParabellumFramework\MathHelper.cpp" />
+    <ClCompile Include="..\ParabellumFramework\Matrix4x4.cpp" />
+    <ClCompile Include="..\ParabellumFramework\MemoryManager.cpp" />
+    <ClCompile Include="..\ParabellumFramework\Plane.cpp" />
+    <ClCompile Include="..\ParabellumFramework\RenderTarget.cpp" />
+    <ClCompile Include="..\ParabellumFramework\Resource.cpp" />
+    <ClCompile Include="..\ParabellumFramework\ResourceManager.cpp" />
+    <ClCompile Include="..\ParabellumFramework\Shader.cpp" />
+    <ClCompile Include="..\ParabellumFramework\ShaderCBuffer.cpp" />
+    <ClCompile Include="..\ParabellumFramework\ShaderConverter.cpp" />
+    <ClCompile Include="..\ParabellumFramework\ShaderLayout.cpp" />
+    <ClCompile Include="..\ParabellumFramework\ShaderParametr.cpp" />
+    <ClCompile Include="..\ParabellumFramework\ShaderSamplerState.cpp" />
+    <ClCompile Include="..\ParabellumFramework\SystemCodes.cpp" />
+    <ClCompile Include="..\ParabellumFramework\Vector2D.cpp" />
+    <ClCompile Include="..\ParabellumFramework\Vector3D.cpp" />
+    <ClCompile Include="..\ParabellumFramework\Vector4D.cpp" />
+    <ClCompile Include="..\ParabellumFramework\VertexBuffer.cpp" />
+    <ClCompile Include="BoundingBox.cpp" />
+    <ClCompile Include="BoundingBoxExtended.cpp" />
+    <ClCompile Include="BoundingFrustum.cpp" />
+    <ClCompile Include="BoundingSphere.cpp" />
+    <ClCompile Include="DebugHelper.cpp" />
+    <ClCompile Include="dfstream.cpp" />
+    <ClCompile Include="Event.cpp" />
+    <ClCompile Include="TaskManager.cpp" />
+    <ClCompile Include="MathHelperExtended.cpp" />
+    <ClCompile Include="MathHelperPrimitives.cpp" />
+    <ClCompile Include="Volume.cpp" />
+    <ClCompile Include="Ray.cpp" />
+    <ClCompile Include="Triangle.cpp" />
+    <ClCompile Include="Task.cpp" />
+    <ClCompile Include="UnitHelper.cpp" />
+    <ClCompile Include="DebugManager.cpp" />
+    <ClCompile Include="dllmain.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="DXInputDevice.cpp" />
+    <ClCompile Include="GraphicsFormat.cpp" />
+    <ClCompile Include="InputDevice.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="ModelConverter.cpp" />
+    <ClCompile Include="ModelPart.cpp" />
+    <ClCompile Include="ParabellumFramework.cpp" />
+    <ClCompile Include="Profiler.cpp" />
+    <ClCompile Include="ShaderVariable.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp" />
+    <ClCompile Include="TextureConverter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ParabellumUtils\ParabellumUtils.vcxproj">
+      <Project>{c680c440-0f0a-45ef-9797-4ae4ab5aa92f}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

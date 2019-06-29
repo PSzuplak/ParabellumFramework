@@ -1,0 +1,40 @@
+# 
+# Wavefront material file
+# Created with Kaydara FBX
+# 
+
+newmtl roots
+map_Kd mangrove_roots1.tga
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+illum 2
+Ns 2.000000
+Tr 1.000000
+
+newmtl blinn1
+map_Kd mangrove_bark.tga
+Ka 0.179309 0.179309 0.179309
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+illum 2
+Ns 2.000000
+Tr 1.000000
+
+newmtl branch2
+map_Kd mangrove_branch2.tga
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+illum 2
+Ns 2.000000
+Tr 1.000000
+
+newmtl shrooms
+map_Kd schroom1.tga
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+illum 2
+Ns 2.000000
+Tr 1.000000

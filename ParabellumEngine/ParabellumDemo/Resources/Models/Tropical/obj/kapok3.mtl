@@ -1,0 +1,31 @@
+# 
+# Wavefront material file
+# Created with Kaydara FBX
+# 
+
+newmtl pnacza
+map_Kd lianas.tga
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+illum 2
+Ns 2.000000
+Tr 1.000000
+
+newmtl tree_texture_bake
+map_Kd kapok_bark.tga
+Ka 0.300816 0.300816 0.300816
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+illum 2
+Ns 2.000000
+Tr 1.000000
+
+newmtl branch1
+map_Kd kapok_branch.tga
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+illum 2
+Ns 2.000000
+Tr 1.000000

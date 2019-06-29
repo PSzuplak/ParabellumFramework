@@ -1,0 +1,58 @@
+_________________________________________________________________________________________________
+Component3D::UpdateBoundingVolumes()
+
+Stale dane - trzeba zrobic robienie bounding boxa przy parsowaniu modeli
+
+
+
+
+_________________________________________________________________________________________________
+Dlaczego ModelConverter 
+
+
+Problem : ostatnio trojekat jest czarny - tj. bufor normalnych - wyglada na to ze pozycje i UV bierze OK
+
+Sa 24 wierzcholki - jak sie doda jeszcze jakis to ostatni otrojkat jest rysowany normalnie
+
+
+OBJ moze miec tylko 1 obiekt "o" z wierzcholkami (ktore sa podzielona na grupy "g")
+tj. mamy 1 list wierzcholkow ale mozna miec 2 rozne siatki uzywajac roznych "grup" czyli indeksow
+
+
+_________________________________________________________________________________________________
+
+ResourceManager
+
+Release function does not release
+
+
+
+
+
+_________________________________________________________________________________________________
+
+
+DeviceDirectx11
+
+need to implement Device_ReleaseCBuffer
+
+
+_________________________________________________________________________________________________
+GraphicsDevice::SetShader() wyoluje Device_SetSampler(pShader->m_samplerStates[i], i);
+
+Ustawiamy automatyczniesampler state, ktory jest zawsze POINT !
+
+
+_________________________________________________________________________________________________
+
+DeviceDirectx11::Device_SetCBuffer
+
+
+figure something out to not copy MEMORY. Maybe similar copy?
+
+Shader->Set just set a ponter - maybe faster would be copying by value? it should elimante some cycles
+
+
+
+
+

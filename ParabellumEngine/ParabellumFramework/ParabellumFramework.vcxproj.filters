@@ -1,0 +1,558 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ParabellumFramework">
+      <UniqueIdentifier>{1a928aaf-cc66-46b4-a21d-da5c3b3ac436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParabellumFramework\Graphics">
+      <UniqueIdentifier>{37788a30-c961-49c8-8d5c-a044ebf3ee6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParabellumFramework\Graphics\Device">
+      <UniqueIdentifier>{32a55616-1e63-45bb-97fb-c2c4adac3a1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParabellumFramework\Graphics\Buffer">
+      <UniqueIdentifier>{e88b0b1b-b7b0-4709-b500-5721bd2a9bae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParabellumFramework\Graphics\Shader">
+      <UniqueIdentifier>{ac4f8c2e-3a5f-4433-8f3f-113109a515a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParabellumFramework\Graphics\RenderTarget">
+      <UniqueIdentifier>{3b7474fc-eebe-4998-8586-feb1c338d232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParabellumFramework\Math">
+      <UniqueIdentifier>{c4ebe9a6-9a1f-485e-875c-3c4e26a356ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParabellumFramework\Resources">
+      <UniqueIdentifier>{14c0dccc-43cf-4b33-b250-15c088376509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParabellumFramework\Types">
+      <UniqueIdentifier>{ba3f914f-273b-4a5d-b5dc-ed881b8867fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ParabellumFramework">
+      <UniqueIdentifier>{234d4034-bc90-4107-87d9-d05741be259a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ParabellumFramework\Types">
+      <UniqueIdentifier>{5af666dd-6a0d-4fc7-b201-d4e3c2a5b8ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ParabellumFramework\Graphics">
+      <UniqueIdentifier>{7bb76d1d-507c-4bed-a0eb-b663240280f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ParabellumFramework\Graphics\Device">
+      <UniqueIdentifier>{6138cd58-7b87-4a98-a581-b7b203395b6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ParabellumFramework\Graphics\Shader">
+      <UniqueIdentifier>{868e8571-382a-47aa-b9ed-cf03984f9678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ParabellumFramework\Graphics\Buffer">
+      <UniqueIdentifier>{1c9cf3d6-8d1e-457f-bc82-29585bbac52a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ParabellumFramework\Math">
+      <UniqueIdentifier>{adb3d62a-8780-48c1-a322-521455e9c9b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ParabellumFramework\Resources">
+      <UniqueIdentifier>{698bf69d-946d-4887-98fe-7d8460621981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ParabellumFramework\Graphics\Texture">
+      <UniqueIdentifier>{90d9da3f-2814-4096-b41a-cb58a18254b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParabellumFramework\Graphics\Texture">
+      <UniqueIdentifier>{78232150-3759-4a4d-bbec-5b6f1872325f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ParabellumFramework\IO">
+      <UniqueIdentifier>{7c515fed-a1d7-4b2c-8d3f-bf4f9f8f4d98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParabellumFramework\IO">
+      <UniqueIdentifier>{c869776c-0ae2-44d5-bddb-d1b4be46dc75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ParabellumFramework\Graphics\RenderTarget">
+      <UniqueIdentifier>{c6425cc3-93e6-49a3-8467-ea987e473540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParabellumFramework\Debug">
+      <UniqueIdentifier>{d91005f5-18d3-4ed0-a179-ab1d555d7d45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ParabellumFramework\Settings">
+      <UniqueIdentifier>{af40e37e-cf6c-464d-a825-64a640de58f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ParabellumFramework\Profiler">
+      <UniqueIdentifier>{15df123d-9955-42e9-afa6-73d2db432b02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParabellumFramework\Profiler">
+      <UniqueIdentifier>{bd08497c-8c61-4066-af7d-a696874b2e14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ParabellumFramework\Graphics\Model">
+      <UniqueIdentifier>{41506110-d0e7-4dc6-aff7-8db582b4a7dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdParty">
+      <UniqueIdentifier>{6fed8eb7-2dd7-450a-af62-f5b442b82cc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{d896d935-d72f-4a06-b763-fa277e03c983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParabellumFramework\Events">
+      <UniqueIdentifier>{ce8328ce-07f9-4b4b-bc3f-f7620bba778e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ParabellumFramework\Events">
+      <UniqueIdentifier>{7a144ed3-9b40-466d-b587-aa5656ce8bc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Debug">
+      <UniqueIdentifier>{2e6aef58-90e4-44a2-88d7-aab8ba57e5ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ParabellumFramework\Threads">
+      <UniqueIdentifier>{31f9dc6c-5721-440e-a872-27eb23ddcf51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ParabellumFramework\Functions">
+      <UniqueIdentifier>{57737c77-48b3-448b-9c86-880c3d858706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParabellumFramework\GPGPU">
+      <UniqueIdentifier>{125c9462-3866-4247-816a-ec9cdb2e874a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ParabellumFramework\Paraller">
+      <UniqueIdentifier>{65aa1a27-66b1-4141-b6ba-99847e313710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ParabellumFramework\Exceptions">
+      <UniqueIdentifier>{9f8cba40-1c9f-4421-9af5-7ac6136a25a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ParabellumFramework\Utils">
+      <UniqueIdentifier>{c6589b8d-276d-4cba-b69e-744712af4e59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ParabellumFramework\Serializer">
+      <UniqueIdentifier>{4a1fce0d-173c-4641-9cc1-5c6be9e86124}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParabellumFramework\Threads">
+      <UniqueIdentifier>{38324bf4-a38a-48f1-b380-4660df044f69}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ParabellumFramework\SystemCodes.h">
+      <Filter>Header Files\ParabellumFramework\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ParabellumFramework\TypesC.h">
+      <Filter>Header Files\ParabellumFramework\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ParabellumFramework\GraphicsTypes.h">
+      <Filter>Header Files\ParabellumFramework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ParabellumFramework\DeviceDirectX11.h">
+      <Filter>Header Files\ParabellumFramework\Graphics\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ParabellumFramework\DeviceDirectX12.h">
+      <Filter>Header Files\ParabellumFramework\Graphics\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ParabellumFramework\DirectX12Headers.h">
+      <Filter>Header Files\ParabellumFramework\Graphics\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ParabellumFramework\GraphicsDevice.h">
+      <Filter>Header Files\ParabellumFramework\Graphics\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ParabellumFramework\GraphicsDeviceHeaders.h">
+      <Filter>Header Files\ParabellumFramework\Graphics\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ParabellumFramework\Shader.h">
+      <Filter>Header Files\ParabellumFramework\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ParabellumFramework\ShaderLayout.h">
+      <Filter>Header Files\ParabellumFramework\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ParabellumFramework\ShaderParametr.h">
+      <Filter>Header Files\ParabellumFramework\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ParabellumFramework\IndexBuffer.h">
+      <Filter>Header Files\ParabellumFramework\Graphics\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ParabellumFramework\VertexBuffer.h">
+      <Filter>Header Files\ParabellumFramework\Graphics\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ParabellumFramework\MathHelper.h">
+      <Filter>Header Files\ParabellumFramework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ParabellumFramework\Matrix4x4.h">
+      <Filter>Header Files\ParabellumFramework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ParabellumFramework\Plane.h">
+      <Filter>Header Files\ParabellumFramework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ParabellumFramework\Vector2D.h">
+      <Filter>Header Files\ParabellumFramework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ParabellumFramework\Vector3D.h">
+      <Filter>Header Files\ParabellumFramework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ParabellumFramework\Vector4D.h">
+      <Filter>Header Files\ParabellumFramework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ParabellumFramework\MemoryManager.h">
+      <Filter>Header Files\ParabellumFramework\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ParabellumFramework\Resource.h">
+      <Filter>Header Files\ParabellumFramework\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ParabellumFramework\ResourceManager.h">
+      <Filter>Header Files\ParabellumFramework\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ParabellumFramework\DebugManager.h">
+      <Filter>Header Files\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="DLLIE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>Header Files\ParabellumFramework\Graphics\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderSamplerState.h">
+      <Filter>Header Files\ParabellumFramework\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="IntersectCodes.h">
+      <Filter>Header Files\ParabellumFramework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDevice.h">
+      <Filter>Header Files\ParabellumFramework\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCodes.h">
+      <Filter>Header Files\ParabellumFramework\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="DXInputDevice.h">
+      <Filter>Header Files\ParabellumFramework\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ParabellumFramework\RenderTarget.h">
+      <Filter>Header Files\ParabellumFramework\Graphics\RenderTarget</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonVertexType.h">
+      <Filter>Header Files\ParabellumFramework\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="ParabellumImage.h">
+      <Filter>Header Files\ParabellumFramework\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files\ParabellumFramework\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingFrustum.h">
+      <Filter>Header Files\ParabellumFramework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingVolumes.h">
+      <Filter>Header Files\ParabellumFramework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\ParabellumFramework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelPart.h">
+      <Filter>Header Files\ParabellumFramework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="PMModelFormat.h">
+      <Filter>Header Files\ParabellumFramework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Profiler.h">
+      <Filter>Header Files\ParabellumFramework\Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelFormat.h">
+      <Filter>Header Files\ParabellumFramework\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureConverter.h">
+      <Filter>3rdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ParabellumFramework\ShaderConverter.h">
+      <Filter>3rdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelConverter.h">
+      <Filter>3rdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="Deductor.h">
+      <Filter>Header Files\ParabellumFramework\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonMaterialType.h">
+      <Filter>Header Files\ParabellumFramework\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitHelper.h">
+      <Filter>Header Files\ParabellumFramework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="FlagHelper.h">
+      <Filter>Header Files\ParabellumFramework\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="IOTypes.h">
+      <Filter>Header Files\ParabellumFramework\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugHelper.h">
+      <Filter>Header Files\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsDeviceTight.h">
+      <Filter>Header Files\ParabellumFramework\Graphics\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="dfstream.h">
+      <Filter>Header Files\ParabellumFramework\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="CompilationConf.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Narray.h">
+      <Filter>Header Files\ParabellumFramework\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Deck.h">
+      <Filter>Header Files\ParabellumFramework\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Header Files\ParabellumFramework\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Handler.h">
+      <Filter>Header Files\ParabellumFramework\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files\ParabellumFramework\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>Header Files\ParabellumFramework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Header Files\ParabellumFramework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelperExtended.h">
+      <Filter>Header Files\ParabellumFramework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelperPrimitives.h">
+      <Filter>Header Files\ParabellumFramework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>Header Files\ParabellumFramework\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskManager.h">
+      <Filter>Header Files\ParabellumFramework\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Task.h">
+      <Filter>Header Files\ParabellumFramework\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHash.h">
+      <Filter>Header Files\ParabellumFramework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MemorySettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Volume.h">
+      <Filter>Header Files\ParabellumFramework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="anonymousVariable.h">
+      <Filter>Header Files\ParabellumFramework\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Convenctions.h">
+      <Filter>Header Files\ParabellumFramework\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="ParabellumExtensions.h">
+      <Filter>Header Files\ParabellumFramework\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsVol.h">
+      <Filter>Header Files\ParabellumFramework\Graphics\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Locker.h">
+      <Filter>Header Files\ParabellumFramework\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsCommands.h">
+      <Filter>Header Files\ParabellumFramework\Graphics\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsQueue.h">
+      <Filter>Header Files\ParabellumFramework\Graphics\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorFit.h">
+      <Filter>Header Files\ParabellumFramework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Header Files\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="SubsystemsPrefixes.h">
+      <Filter>Header Files\ParabellumFramework\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionHelper.h">
+      <Filter>Header Files\ParabellumFramework\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="ParallerDevice.h">
+      <Filter>Header Files\ParabellumFramework\Paraller</Filter>
+    </ClInclude>
+    <ClInclude Include="PFString.h">
+      <Filter>Header Files\ParabellumFramework\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>Header Files\ParabellumFramework\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Conversions.h">
+      <Filter>Header Files\ParabellumFramework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Serializer.h">
+      <Filter>Header Files\ParabellumFramework\Serializer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParabellumFramework.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ParabellumFramework\DeviceDirectX11.cpp">
+      <Filter>Source Files\ParabellumFramework\Graphics\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ParabellumFramework\DeviceDirectX12.cpp">
+      <Filter>Source Files\ParabellumFramework\Graphics\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ParabellumFramework\GraphicsDevice.cpp">
+      <Filter>Source Files\ParabellumFramework\Graphics\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ParabellumFramework\IndexBuffer.cpp">
+      <Filter>Source Files\ParabellumFramework\Graphics\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ParabellumFramework\VertexBuffer.cpp">
+      <Filter>Source Files\ParabellumFramework\Graphics\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ParabellumFramework\Shader.cpp">
+      <Filter>Source Files\ParabellumFramework\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ParabellumFramework\ShaderCBuffer.cpp">
+      <Filter>Source Files\ParabellumFramework\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ParabellumFramework\ShaderLayout.cpp">
+      <Filter>Source Files\ParabellumFramework\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ParabellumFramework\ShaderParametr.cpp">
+      <Filter>Source Files\ParabellumFramework\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ParabellumFramework\ShaderSamplerState.cpp">
+      <Filter>Source Files\ParabellumFramework\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ParabellumFramework\RenderTarget.cpp">
+      <Filter>Source Files\ParabellumFramework\Graphics\RenderTarget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ParabellumFramework\MathHelper.cpp">
+      <Filter>Source Files\ParabellumFramework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ParabellumFramework\Matrix4x4.cpp">
+      <Filter>Source Files\ParabellumFramework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ParabellumFramework\Plane.cpp">
+      <Filter>Source Files\ParabellumFramework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ParabellumFramework\Vector2D.cpp">
+      <Filter>Source Files\ParabellumFramework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ParabellumFramework\Vector3D.cpp">
+      <Filter>Source Files\ParabellumFramework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ParabellumFramework\Vector4D.cpp">
+      <Filter>Source Files\ParabellumFramework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ParabellumFramework\MemoryManager.cpp">
+      <Filter>Source Files\ParabellumFramework\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ParabellumFramework\Resource.cpp">
+      <Filter>Source Files\ParabellumFramework\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ParabellumFramework\ResourceManager.cpp">
+      <Filter>Source Files\ParabellumFramework\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ParabellumFramework\SystemCodes.cpp">
+      <Filter>Source Files\ParabellumFramework\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp">
+      <Filter>Source Files\ParabellumFramework\Graphics\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="InputDevice.cpp">
+      <Filter>Source Files\ParabellumFramework\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="DXInputDevice.cpp">
+      <Filter>Source Files\ParabellumFramework\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugManager.cpp">
+      <Filter>Source Files\ParabellumFramework\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderVariable.cpp">
+      <Filter>Source Files\ParabellumFramework\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsFormat.cpp">
+      <Filter>Source Files\ParabellumFramework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingFrustum.cpp">
+      <Filter>Source Files\ParabellumFramework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingBox.cpp">
+      <Filter>Source Files\ParabellumFramework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingSphere.cpp">
+      <Filter>Source Files\ParabellumFramework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\ParabellumFramework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelPart.cpp">
+      <Filter>Source Files\ParabellumFramework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Profiler.cpp">
+      <Filter>Source Files\ParabellumFramework\Profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureConverter.cpp">
+      <Filter>3rdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ParabellumFramework\ShaderConverter.cpp">
+      <Filter>3rdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelConverter.cpp">
+      <Filter>3rdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitHelper.cpp">
+      <Filter>Source Files\ParabellumFramework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="dfstream.cpp">
+      <Filter>Source Files\ParabellumFramework\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingBoxExtended.cpp">
+      <Filter>Source Files\ParabellumFramework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Source Files\ParabellumFramework\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Source Files\ParabellumFramework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Ray.cpp">
+      <Filter>Source Files\ParabellumFramework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MathHelperExtended.cpp">
+      <Filter>Source Files\ParabellumFramework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MathHelperPrimitives.cpp">
+      <Filter>Source Files\ParabellumFramework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskManager.cpp">
+      <Filter>Source Files\ParabellumFramework\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Task.cpp">
+      <Filter>Source Files\ParabellumFramework\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Volume.cpp">
+      <Filter>Source Files\ParabellumFramework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugHelper.cpp">
+      <Filter>Source Files\ParabellumFramework\Debug</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

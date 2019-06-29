@@ -1,0 +1,41 @@
+/*
+
+	Project name : ParabellumUtils
+
+	ParabellumUtils provides optimized tools
+
+
+
+
+	ParabellumUtils can be divided onto :
+
+	.	Data
+	.	Memory
+	.	Math
+	.	Event
+	.	Interprocess
+	.	Network
+	.	Debug
+	.	Profil
+	.	Data
+	.	Data
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
